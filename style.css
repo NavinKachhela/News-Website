@@ -1,0 +1,64 @@
+/********************************************************************************************************
+                                HOME PAGE
+********************************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-custom{
+    background: #fff;
+    color: #007bff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*NavBar*/
+/*
+.social{
+    background: #000;
+    display: inline-block;
+}*/
+.social{
+ margin-left: 23px;   
+}
+.social a{
+    color: black;
+    padding: .7rem;
+}
+.header-icon{
+   
+/*    background: red;*/
+}
+.positioning{
+    padding-right: 0.1rem;
+    text-transform: uppercase;
+    font-family:"lato", sans-serif;
+}
+.positioning li{
+    padding-right: 10px;
+    
+}
+.positioning li a:hover{
+ background:white;
+    border-radius: 10px;
+    color: #007bff !important;
+}
+.btn-custom:hover{
+    background: #2978A0;
+    color: #fff;
+    border: solid 1px  #00b7ff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
