@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255);
     overflow-y: hidden;
     transition: all .4s linear;
 }
@@ -60,27 +60,18 @@
     color: #00b7ff;
     background: none;
 }
-.navbar{
-    display: block;
-}
+
 /***************
-            MEDIA QUERIES
+ MEDIA QUERIES
 ***************/
 @media(max-width:767px) {
-    
-
+    .navbar{
+    display: block;
+}
     .nav{
         display: block;
     }    
-    
-    
-    
-    
-    
-    
-    
-    
- #mobile-nav-open-btn {
+#mobile-nav-open-btn {
         display: block;
         padding-left: 200px;
     }
